@@ -1,2 +1,5 @@
 igonreThisFile.txt
+<<<<<<< HEAD
 igonreThisFile copy 2.txt
+=======
+>>>>>>> threedBranch
