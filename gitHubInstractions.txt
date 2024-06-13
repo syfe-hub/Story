@@ -1,0 +1,8 @@
+// initiate git respostry
+git init 
+
+// see what failes are tracked in This respostry and what branches 
+ git status
+
+ // saving a file that's been edited
+  git commit -m "message"
