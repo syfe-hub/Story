@@ -1,0 +1,60 @@
+// initiate git respostry
+git init 
+
+// see what failes are tracked in This respostry and what branches 
+ git status
+
+//The git add command adds new or changed files in your working directory to the Git staging area. git add is an important command – without it, no git commit
+    git add . //(all files in the working directory)
+
+ // saving a file that's been edited
+  git commit -m "message"
+
+//displays all of the commits in a repository's history
+   git log
+
+<<<<<<< HEAD
+// remove file from repository
+ git rm filename.ex
+
+// Creat new Branch 
+   git branch <name>
+
+// Display all the branches inn repository 
+   git branch
+=======
+//To quickly compare two commits or Git Object IDs (OIDs) directly with each 
+     git diff
+//lets you navigate between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch,
+    git checkout  
+
+//Create a new connection record to a remote repository.
+    git remote add origin <URL>
+
+//naming convention for a branch
+    git branch -M main
+
+//publish  local code changes to a remote repository, specifically the main branch, often referred to as master
+    git push -u origin main
+
+// Create a file named <.gitignore> that contains all of   unnecessary files and directorie.
+    touch .gitignore    
+
+//Removes the cache from the current directory.
+    git rm -r --cached 
+
+//To point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. 
+    git clone {repository URL}    
+
+//Display all the branches
+    git branch 
+
+//Create a branch with the name <name>
+    git branch <name>
+
+//Switched to branch namde <name>
+    gir checkout <name>
+
+//Create and move directly to the branch named <name>
+    git checkout -b  <name>
+>>>>>>> threedBranch
