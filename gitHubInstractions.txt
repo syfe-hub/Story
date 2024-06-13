@@ -12,3 +12,12 @@ git init
 
 //displays all of the commits in a repository's history
    git log
+
+// remove file from repository
+ git rm filename.ex
+
+// Creat new Branch 
+   git branch <name>
+
+// Display all the branches inn repository 
+   git branch
